@@ -1,0 +1,98 @@
+body {
+  background-color: #23272e;
+  color: #ddd;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+  ------ Global ------
+*/
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* 
+  ------ Utilities ------
+*/
+
+.container {
+  max-width: 600px;
+  border: 1px solid #ddd;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+/* 
+  ------ Todo App ------ 
+*/
+
+.input-box {
+  display: flex;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.input-box input {
+  max-width: 60%;
+  border: none;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.input-box button {
+  border: none;
+  font-size: 26px;
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.input-box button:hover {
+  background-color: rgb(1, 97, 1);
+  color: #ddd;
+}
+
+ul {
+  margin-top: 30px;
+  font-size: 20px;
+  width: 400px;
+  margin-left: 70px;
+  text-align: left;
+  padding: 0;
+}
+
+li {
+  margin-top: 15px;
+}
+
+.editBtn {
+  background-color: orange;
+  color: black;
+  padding-inline: 8px;
+}
+.editBtn:hover {
+  background-color: rgb(204, 133, 1);
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(216, 1, 1);
+}
+
+/* 
+  ------ Signup App ------
+*/
+
+/* 
+  ------ Calculator App ------
+*/
