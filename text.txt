@@ -1,7 +1,0 @@
-GYM web - Making for every person who want to be fit.
-This website made by Gobindo Chakraborty
-
-#---------- TOP BAR ----------#
-#---------- SIDE-BAR ----------#
-#---------- MENU-BAR ----------#
-#---------- FOOTER ----------#
