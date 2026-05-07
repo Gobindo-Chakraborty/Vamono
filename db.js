@@ -6,4 +6,4 @@ await client.connect();
 
 const db = client.db("todoApp");
 
-export const taskCollection = db.collection("tasks");
+export const tasksCollection = db.collection("tasks");
