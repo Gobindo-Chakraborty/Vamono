@@ -1,15 +1,11 @@
 import http from "http";
 import fs from "fs";
 import { MongoClient, ObjectId } from "mongodb";
+import { tasksCollection } from "./db.js";
 
 // =====================
 // DB CONNECTION
 // =====================
-const client = new MongoClient("mongodb://127.0.0.1:27017");
-await client.connect();
-
-const db = client.db("todoApp");
-const tasksCollection = db.collection("tasks");
 
 const PORT = 3000;
 
