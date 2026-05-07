@@ -1,0 +1,25 @@
+{
+  "name": "vamono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gobindo-Chakraborty/Vamono.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gobindo-Chakraborty/Vamono/issues"
+  },
+  "homepage": "https://github.com/Gobindo-Chakraborty/Vamono#readme",
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  }
+}
